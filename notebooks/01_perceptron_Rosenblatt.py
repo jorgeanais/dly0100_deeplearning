@@ -14,7 +14,7 @@ TASA_APRENDIZAJE = 0.1  # Hiperpárametro
 PESOS = [0.0, 0.0, 0.0]  # valores iniciales de [w1, w2, b]
 CONJUNTO_ENTRENAMIENTO = [
     # ((x1, x2, 1.), salida_deseada)
-    ((0.0, 0.0, 1.0), 1.0),
+    ((0.0, 0.0, 1.0), 0.0),
     ((0.0, 1.0, 1.0), 0.0),
     ((1.0, 0.0, 1.0), 0.0),
     ((1.0, 1.0, 1.0), 1.0),
