@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 # PARAMETROS
 MAX_EPOCAS = 1_000  # Número máximo de épocas
-UMBRAL = 0.5  # Umbral de activación
+UMBRAL = 1.0  # Umbral de activación
 TASA_APRENDIZAJE = 0.1  # Hiperpárametro
 PESOS = [0.0, 0.0, 0.0]  # valores iniciales de [w1, w2, b]
 CONJUNTO_ENTRENAMIENTO = [
